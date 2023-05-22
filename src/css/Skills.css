@@ -1,0 +1,73 @@
+.bg{    
+    background-image: linear-gradient(to right, skyblue, blue);
+
+}
+
+.title h4{
+    margin-top: -1rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+    color: #000;
+    font-size: 30px;
+    margin-left: 40%;
+}
+.title p{    
+    margin-top: 3rem;
+    color: white;
+    font-size: 1rem;
+    margin-left: 43%;
+}
+.experience_container{
+    display: flex;
+    justify-content: center;
+}
+
+.experience_container > div{
+    background: #317af1;
+    color: black;
+    padding: 0 0.1rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+.experience_container > div:hover{
+    background: transparent;
+    border-color: #da2020;
+    color: black;
+    cursor: default;
+}
+.experience_container .fd{
+    font-family: Georgia;
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 1rem;
+    color: black;
+    font-weight: bold;
+
+}
+ .experience_content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0.1rem;
+ }
+.experience_details{
+    display: flex;
+    gap: 0.5rem;
+    padding: 1rem;
+}
+.experience_details img{
+    width: 60px;
+}
+.experience_details p{
+    font-family: Georgia;
+    margin-top: 10px;
+   font-size: 15px;
+   font-weight: bold;
+}
+
+.qoutes {
+    display: flex;
+    text-align: center;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
